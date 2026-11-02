@@ -81,12 +81,7 @@ if os.path.exists(_PID_FILE):
         pass
 open(_PID_FILE, "w").write(str(_my_pid))
 
-API_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-if not API_TOKEN:
-    raise RuntimeError(
-        "TELEGRAM_BOT_TOKEN is missing. Add it in Railway Variables/Secrets "
-        "before starting the bot."
-    )
+API_TOKEN = "8821073503:AAHXNS6o-Pv7ciGKBj3ICNyPLvpSSVKVOFE"
 # <<SYNC:SUPER_ADMIN_IDS:START>>
 SUPER_ADMIN_IDS = [
     6664150885,
