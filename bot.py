@@ -10,16 +10,16 @@ from firebase_store import (
     save_json as _firebase_save_json,
 )
 
-_RUNTIME_PACKAGES = (
-    ("telebot", "pytelegrambotapi>=4.36.0"),
-    ("emoji", "emoji>=2.15.0"),
-    ("openpyxl", "openpyxl>=3.1.5"),
-    ("phonenumbers", "phonenumbers>=9.0.34"),
-    ("requests", "requests>=2.34.2"),
-    ("bs4", "beautifulsoup4>=4.15.0"),
-    ("xlrd", "xlrd>=2.0.2"),
-    ("langid", "langid>=1.1.6"),
-)
+_NEEDED_PACKAGES = {
+    ("telebot", "pyTelegramBotAPI==4.12.0"),
+    ("emoji", "emoji==2.11.0"),
+    ("openpyxl", "openpyxl==3.1.2"),
+    ("phonenumbers", "phonenumbers==8.13.35"),
+    ("requests", "requests==2.31.0"),
+    ("bs4", "beautifulsoup4==4.12.2"),
+    ("xlrd", "xlrd==2.0.1"),
+    ("langid", "langid==1.1.6")
+}
 
 
 def _ensure_single_file_dependencies():
