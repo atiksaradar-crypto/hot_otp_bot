@@ -81,7 +81,7 @@ if os.path.exists(_PID_FILE):
         pass
 open(_PID_FILE, "w").write(str(_my_pid))
 
-API_TOKEN = "8821073503:AAHXNS6o-Pv7ciGKBj3ICNyPLvpSSVKVOFE"
+API_TOKEN =XNS6o-Pv7ciGKB
 # <<SYNC:SUPER_ADMIN_IDS:START>>
 SUPER_ADMIN_IDS = [
     6664150885,
